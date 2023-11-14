@@ -35,6 +35,20 @@ int main(void)
 		tokenized_array(command_args);
 		continue;
 	}
+	if (strcmp(command_args[0], "exit") == 0)
+	{
+		bnc_exit(user_input);
+		free(user_input);
+		tokenized_array(command_args);
+	break; /*it should exit the loop if the command is "exit"*/
+	}
+	else if (strcmp(command_args[0], "env") == 0)
+	{
+		bnc_env();
+		free(user_input);
+		tokenized_array(command_args);
+		continue;
+	}
 	/*Executes the input*/
 	shell_status = bnc_exec_entry(command_args);
 
