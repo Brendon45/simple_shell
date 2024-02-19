@@ -13,6 +13,13 @@ No more than 5 functions per file
 All your header files should be include guarded
 Use system calls only when you need to (why?)
 Write a README with the description of your project
-You should have an AUTHORS file at the root of your repository, listing all individuals having contributed content to the repository. Format, see Docker
+You should have an AUTHORS file at the root of your repository, listing all individuals having contributed content to the repository. Format, see Docker.
 
+## Feel free to explore the repository to learn more about each task!
 
+## AUTHORS:
+Brendon Jeje <jejebrendon722@gmail.com>
+
+Charlton Jeje <charltonijeje@ymail.com>
+
+![JSJSKD](https://www.codester.com/static/uploads/items/000/021/21656/preview.jpg)
